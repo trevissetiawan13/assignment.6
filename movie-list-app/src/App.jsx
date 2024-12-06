@@ -4,7 +4,7 @@ import './index.css';
 const initialState = {
   movies: [],
   loading: true,
-  searchTerm: 'batman',
+  searchTerm: 'iron man',
 };
 
 const reducer = (state, action) => {
