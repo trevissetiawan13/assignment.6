@@ -1,7 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  base: "/movie-list-app/", // Gantilah 'nama-repositori-anda' dengan nama repositori GitHub Anda
+  // konfigurasi lainnya
+});
